@@ -27,9 +27,9 @@ MEDIA_URL = '/media/'
 SECRET_KEY = 'django-insecure-$23goh)27(&^e=&j5@_1%7jyfk9ed@vfgkgyko*x8ff%j!bxrl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['ec2-18-153-81-4.eu-central-1.compute.amazonaws.com']
+ALLOWED_HOSTS = ['ec2-18-153-81-4.eu-central-1.compute.amazonaws.com', '127.0.0.1']
 
 
 # Application definition
