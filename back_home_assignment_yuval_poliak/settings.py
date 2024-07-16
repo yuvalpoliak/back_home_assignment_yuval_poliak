@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-$23goh)27(&^e=&j5@_1%7jyfk9ed@vfgkgyko*x8ff%j!bxrl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://ec2-18-153-81-4.eu-central-1.compute.amazonaws.com']
 
 
 # Application definition
@@ -60,7 +60,7 @@ MIDDLEWARE = [
 
 ]
 
-CORS_ORIGIN_WHITELIST = ['http://localhost:5173', 'http://ec2-18-153-81-4.eu-central-1.compute.amazonaws.com']
+CORS_ORIGIN_WHITELIST = ['http://localhost:5173', ]
 
 ROOT_URLCONF = 'back_home_assignment_yuval_poliak.urls'
 
