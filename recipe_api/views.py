@@ -11,7 +11,7 @@ from .models import Recipe
 # Create your views here.
 
 @api_view(['GET'])
-def hello_world(request):
+def get_all(request):
     all_recipes = Recipe.objects.all()
     data = serializers.serialize('json', all_recipes)
     print(data)
