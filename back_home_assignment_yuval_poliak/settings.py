@@ -60,7 +60,7 @@ MIDDLEWARE = [
 
 ]
 
-CORS_ORIGIN_WHITELIST = ['http://localhost:5173', 'http://d2l5gh842m3v3h.cloudfront.net' 'http://recipehost.s3-website.eu-central-1.amazonaws.com' ]
+CORS_ORIGIN_WHITELIST = ['http://localhost:5173', 'http://d2l5gh842m3v3h.cloudfront.net', 'http://recipehost.s3-website.eu-central-1.amazonaws.com' ]
 
 ROOT_URLCONF = 'back_home_assignment_yuval_poliak.urls'
 
